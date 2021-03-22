@@ -1,0 +1,16 @@
+<NavigationScreen@Screen>
+    name: 'NavigationScreen'
+    opacity: 0
+    on_enter:
+        app.screens.show_screen('MainScreen')
+        root.opacity=  1
+
+    BoxLayout:
+        orientation: 'vertical'
+
+    ScreenManager:
+        id: scrn_mgr
+
+    Widget:
+        size_hint: (None, None)
+        size: (0, 0)

@@ -1,0 +1,75 @@
+#:import MDTextField kivymd.textfields.MDTextField
+#:import MDToolbar kivymd.toolbar.MDToolbar
+
+<MainScreen>
+    id: mainscreen_id
+    orientation: "vertical"
+
+    BoxLayout:
+        orientation: 'vertical'
+        spacing: dp(10)
+        padding: dp(10)
+
+        canvas:
+            Color:
+                rgba: (1, 1, 1, 1)
+            Rectangle:
+                size: self.size
+                pos: self.pos
+
+        MDToolbar:
+            id: MainScreen_Toolbar
+            title: 'Screen Recorder'
+            md_bg_color: app.theme_cls.primary_color
+
+        BoxLayout:
+            id: select_file_box
+            size_hint_y: None
+            spacing: dp(10)
+            height: dp(50)
+            orientation: "horizontal"
+
+            MDTextField:
+                id: select_folder_label
+                hint_text: "Select a valid Folder "
+                size_hint_x: None
+                width: "500dp"
+                disabled: True
+
+            MDTextField:
+                id: file_name
+                hint_text: "Output File Name"
+                helper_text_mode: "on_focus"
+                size_hint_x: None
+                width: "200dp"
+
+        BoxLayout:
+            id: settings_box
+            size_hint_y: None
+            spacing: dp(20)
+            height: dp(60)
+            orientation: "horizontal"
+
+            MDTextField:
+                id: frame_per_sec
+                hint_text: "Frame Per Second"
+                helper_text_mode: "on_focus"
+                size_hint_x: None
+                width: "200dp"
+
+            MDTextField:
+                id: screen_resolution
+                hint_text: "Screen Resolution "
+                helper_text_mode: "on_focus"
+                size_hint_x: None
+                width: "300dp"
+                disabled: True
+
+        BoxLayout:
+            id: videoContainer
+            canvas:
+                Color:
+                    rgba: (0.1,0.1,0.1,0.1)
+                Rectangle:
+                    pos: self.pos
+                    size: self.size
