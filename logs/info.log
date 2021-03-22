@@ -1,0 +1,289 @@
+2021-03-15 13:10:55,071; WARNING ; [9264 - MainProcess - 11492]; kivy                               ; write               ;  335: stderr: --- Logging error ---
+2021-03-15 13:10:55,072; WARNING ; [9264 - MainProcess - 11492]; kivy                               ; write               ;  335: stderr: Traceback (most recent call last):
+2021-03-15 13:10:55,073; WARNING ; [9264 - MainProcess - 11492]; kivy                               ; write               ;  335: stderr:   File "C:\Program Files\Python\Version37\lib\logging\__init__.py", line 1025, in emit
+2021-03-15 13:10:55,073; WARNING ; [9264 - MainProcess - 11492]; kivy                               ; write               ;  335: stderr:     msg = self.format(record)
+2021-03-15 13:10:55,073; WARNING ; [9264 - MainProcess - 11492]; kivy                               ; write               ;  335: stderr:   File "C:\Program Files\Python\Version37\lib\logging\__init__.py", line 869, in format
+2021-03-15 13:10:55,074; WARNING ; [9264 - MainProcess - 11492]; kivy                               ; write               ;  335: stderr:     return fmt.format(record)
+2021-03-15 13:10:55,074; WARNING ; [9264 - MainProcess - 11492]; kivy                               ; write               ;  335: stderr:   File "C:\Program Files\Python\Version37\lib\logging\__init__.py", line 608, in format
+2021-03-15 13:10:55,074; WARNING ; [9264 - MainProcess - 11492]; kivy                               ; write               ;  335: stderr:     record.message = record.getMessage()
+2021-03-15 13:10:55,074; WARNING ; [9264 - MainProcess - 11492]; kivy                               ; write               ;  335: stderr:   File "C:\Program Files\Python\Version37\lib\logging\__init__.py", line 369, in getMessage
+2021-03-15 13:10:55,075; WARNING ; [9264 - MainProcess - 11492]; kivy                               ; write               ;  335: stderr:     msg = msg % self.args
+2021-03-15 13:10:55,075; WARNING ; [9264 - MainProcess - 11492]; kivy                               ; write               ;  335: stderr: TypeError: not all arguments converted during string formatting
+2021-03-15 13:10:55,075; WARNING ; [9264 - MainProcess - 11492]; kivy                               ; write               ;  335: stderr: Call stack:
+2021-03-15 13:10:55,080; WARNING ; [9264 - MainProcess - 11492]; kivy                               ; write               ;  335: stderr:   File "C:/Users/tmsusr/PycharmProjects/ScreenRecording/main.py", line 62, in <module>
+2021-03-15 13:10:55,081; WARNING ; [9264 - MainProcess - 11492]; kivy                               ; write               ;  335: stderr:     main()
+2021-03-15 13:10:55,081; WARNING ; [9264 - MainProcess - 11492]; kivy                               ; write               ;  335: stderr:   File "C:/Users/tmsusr/PycharmProjects/ScreenRecording/main.py", line 31, in main
+2021-03-15 13:10:55,081; WARNING ; [9264 - MainProcess - 11492]; kivy                               ; write               ;  335: stderr:     app.run()
+2021-03-15 13:10:55,081; WARNING ; [9264 - MainProcess - 11492]; kivy                               ; write               ;  335: stderr:   File "C:\Users\tmsusr\PycharmProjects\ScreenRecording\venv\lib\site-packages\kivy\app.py", line 950, in run
+2021-03-15 13:10:55,082; WARNING ; [9264 - MainProcess - 11492]; kivy                               ; write               ;  335: stderr:     runTouchApp()
+2021-03-15 13:10:55,082; WARNING ; [9264 - MainProcess - 11492]; kivy                               ; write               ;  335: stderr:   File "C:\Users\tmsusr\PycharmProjects\ScreenRecording\venv\lib\site-packages\kivy\base.py", line 582, in runTouchApp
+2021-03-15 13:10:55,082; WARNING ; [9264 - MainProcess - 11492]; kivy                               ; write               ;  335: stderr:     EventLoop.mainloop()
+2021-03-15 13:10:55,082; WARNING ; [9264 - MainProcess - 11492]; kivy                               ; write               ;  335: stderr:   File "C:\Users\tmsusr\PycharmProjects\ScreenRecording\venv\lib\site-packages\kivy\base.py", line 347, in mainloop
+2021-03-15 13:10:55,083; WARNING ; [9264 - MainProcess - 11492]; kivy                               ; write               ;  335: stderr:     self.idle()
+2021-03-15 13:10:55,083; WARNING ; [9264 - MainProcess - 11492]; kivy                               ; write               ;  335: stderr:   File "C:\Users\tmsusr\PycharmProjects\ScreenRecording\venv\lib\site-packages\kivy\base.py", line 387, in idle
+2021-03-15 13:10:55,083; WARNING ; [9264 - MainProcess - 11492]; kivy                               ; write               ;  335: stderr:     Clock.tick()
+2021-03-15 13:10:55,083; WARNING ; [9264 - MainProcess - 11492]; kivy                               ; write               ;  335: stderr:   File "C:\Users\tmsusr\PycharmProjects\ScreenRecording\venv\lib\site-packages\kivy\clock.py", line 733, in tick
+2021-03-15 13:10:55,084; WARNING ; [9264 - MainProcess - 11492]; kivy                               ; write               ;  335: stderr:     self.post_idle(ts, self.idle())
+2021-03-15 13:10:55,084; WARNING ; [9264 - MainProcess - 11492]; kivy                               ; write               ;  335: stderr:   File "C:\Users\tmsusr\PycharmProjects\ScreenRecording\venv\lib\site-packages\kivy\clock.py", line 776, in post_idle
+2021-03-15 13:10:55,084; WARNING ; [9264 - MainProcess - 11492]; kivy                               ; write               ;  335: stderr:     self._process_events()
+2021-03-15 13:10:55,084; WARNING ; [9264 - MainProcess - 11492]; kivy                               ; write               ;  335: stderr:   File "C:\Users\tmsusr\PycharmProjects\ScreenRecording\startupscreen.py", line 24, in <lambda>
+2021-03-15 13:10:55,084; WARNING ; [9264 - MainProcess - 11492]; kivy                               ; write               ;  335: stderr:     Clock.schedule_once(lambda dt: self.load_navigation(), 2)
+2021-03-15 13:10:55,085; WARNING ; [9264 - MainProcess - 11492]; kivy                               ; write               ;  335: stderr:   File "C:\Users\tmsusr\PycharmProjects\ScreenRecording\startupscreen.py", line 45, in load_navigation
+2021-03-15 13:10:55,085; WARNING ; [9264 - MainProcess - 11492]; kivy                               ; write               ;  335: stderr:     app.screens.primary_widget = NavigationScreen()
+2021-03-15 13:10:55,085; WARNING ; [9264 - MainProcess - 11492]; kivy                               ; write               ;  335: stderr:   File "C:\Users\tmsusr\PycharmProjects\ScreenRecording\navigation.py", line 13, in __init__
+2021-03-15 13:10:55,085; WARNING ; [9264 - MainProcess - 11492]; kivy                               ; write               ;  335: stderr:     applogger().logger.info("User Data Directory: ",f_path)
+2021-03-15 13:10:55,085; WARNING ; [9264 - MainProcess - 11492]; kivy                               ; write               ;  335: stderr: Message: 'User Data Directory: '
+2021-03-15 13:10:55,086; WARNING ; [9264 - MainProcess - 11492]; kivy                               ; write               ;  335: stderr: Arguments: ('C:\\Users\\tmsusr\\AppData\\Roaming\\appwin',)
+2021-03-15 13:10:55,086; WARNING ; [9264 - MainProcess - 11492]; kivy                               ; write               ;  335: stderr: --- Logging error ---
+2021-03-15 13:10:55,088; WARNING ; [9264 - MainProcess - 11492]; kivy                               ; write               ;  335: stderr: Traceback (most recent call last):
+2021-03-15 13:10:55,088; WARNING ; [9264 - MainProcess - 11492]; kivy                               ; write               ;  335: stderr:   File "C:\Program Files\Python\Version37\lib\logging\handlers.py", line 69, in emit
+2021-03-15 13:10:55,089; WARNING ; [9264 - MainProcess - 11492]; kivy                               ; write               ;  335: stderr:     if self.shouldRollover(record):
+2021-03-15 13:10:55,089; WARNING ; [9264 - MainProcess - 11492]; kivy                               ; write               ;  335: stderr:   File "C:\Program Files\Python\Version37\lib\logging\handlers.py", line 185, in shouldRollover
+2021-03-15 13:10:55,089; WARNING ; [9264 - MainProcess - 11492]; kivy                               ; write               ;  335: stderr:     msg = "%s\n" % self.format(record)
+2021-03-15 13:10:55,089; WARNING ; [9264 - MainProcess - 11492]; kivy                               ; write               ;  335: stderr:   File "C:\Program Files\Python\Version37\lib\logging\__init__.py", line 869, in format
+2021-03-15 13:10:55,090; WARNING ; [9264 - MainProcess - 11492]; kivy                               ; write               ;  335: stderr:     return fmt.format(record)
+2021-03-15 13:10:55,090; WARNING ; [9264 - MainProcess - 11492]; kivy                               ; write               ;  335: stderr:   File "C:\Program Files\Python\Version37\lib\logging\__init__.py", line 608, in format
+2021-03-15 13:10:55,090; WARNING ; [9264 - MainProcess - 11492]; kivy                               ; write               ;  335: stderr:     record.message = record.getMessage()
+2021-03-15 13:10:55,090; WARNING ; [9264 - MainProcess - 11492]; kivy                               ; write               ;  335: stderr:   File "C:\Program Files\Python\Version37\lib\logging\__init__.py", line 369, in getMessage
+2021-03-15 13:10:55,090; WARNING ; [9264 - MainProcess - 11492]; kivy                               ; write               ;  335: stderr:     msg = msg % self.args
+2021-03-15 13:10:55,091; WARNING ; [9264 - MainProcess - 11492]; kivy                               ; write               ;  335: stderr: TypeError: not all arguments converted during string formatting
+2021-03-15 13:10:55,091; WARNING ; [9264 - MainProcess - 11492]; kivy                               ; write               ;  335: stderr: Call stack:
+2021-03-15 13:10:55,092; WARNING ; [9264 - MainProcess - 11492]; kivy                               ; write               ;  335: stderr:   File "C:/Users/tmsusr/PycharmProjects/ScreenRecording/main.py", line 62, in <module>
+2021-03-15 13:10:55,092; WARNING ; [9264 - MainProcess - 11492]; kivy                               ; write               ;  335: stderr:     main()
+2021-03-15 13:10:55,093; WARNING ; [9264 - MainProcess - 11492]; kivy                               ; write               ;  335: stderr:   File "C:/Users/tmsusr/PycharmProjects/ScreenRecording/main.py", line 31, in main
+2021-03-15 13:10:55,093; WARNING ; [9264 - MainProcess - 11492]; kivy                               ; write               ;  335: stderr:     app.run()
+2021-03-15 13:10:55,093; WARNING ; [9264 - MainProcess - 11492]; kivy                               ; write               ;  335: stderr:   File "C:\Users\tmsusr\PycharmProjects\ScreenRecording\venv\lib\site-packages\kivy\app.py", line 950, in run
+2021-03-15 13:10:55,093; WARNING ; [9264 - MainProcess - 11492]; kivy                               ; write               ;  335: stderr:     runTouchApp()
+2021-03-15 13:10:55,093; WARNING ; [9264 - MainProcess - 11492]; kivy                               ; write               ;  335: stderr:   File "C:\Users\tmsusr\PycharmProjects\ScreenRecording\venv\lib\site-packages\kivy\base.py", line 582, in runTouchApp
+2021-03-15 13:10:55,094; WARNING ; [9264 - MainProcess - 11492]; kivy                               ; write               ;  335: stderr:     EventLoop.mainloop()
+2021-03-15 13:10:55,094; WARNING ; [9264 - MainProcess - 11492]; kivy                               ; write               ;  335: stderr:   File "C:\Users\tmsusr\PycharmProjects\ScreenRecording\venv\lib\site-packages\kivy\base.py", line 347, in mainloop
+2021-03-15 13:10:55,094; WARNING ; [9264 - MainProcess - 11492]; kivy                               ; write               ;  335: stderr:     self.idle()
+2021-03-15 13:10:55,094; WARNING ; [9264 - MainProcess - 11492]; kivy                               ; write               ;  335: stderr:   File "C:\Users\tmsusr\PycharmProjects\ScreenRecording\venv\lib\site-packages\kivy\base.py", line 387, in idle
+2021-03-15 13:10:55,095; WARNING ; [9264 - MainProcess - 11492]; kivy                               ; write               ;  335: stderr:     Clock.tick()
+2021-03-15 13:10:55,095; WARNING ; [9264 - MainProcess - 11492]; kivy                               ; write               ;  335: stderr:   File "C:\Users\tmsusr\PycharmProjects\ScreenRecording\venv\lib\site-packages\kivy\clock.py", line 733, in tick
+2021-03-15 13:10:55,095; WARNING ; [9264 - MainProcess - 11492]; kivy                               ; write               ;  335: stderr:     self.post_idle(ts, self.idle())
+2021-03-15 13:10:55,095; WARNING ; [9264 - MainProcess - 11492]; kivy                               ; write               ;  335: stderr:   File "C:\Users\tmsusr\PycharmProjects\ScreenRecording\venv\lib\site-packages\kivy\clock.py", line 776, in post_idle
+2021-03-15 13:10:55,095; WARNING ; [9264 - MainProcess - 11492]; kivy                               ; write               ;  335: stderr:     self._process_events()
+2021-03-15 13:10:55,096; WARNING ; [9264 - MainProcess - 11492]; kivy                               ; write               ;  335: stderr:   File "C:\Users\tmsusr\PycharmProjects\ScreenRecording\startupscreen.py", line 24, in <lambda>
+2021-03-15 13:10:55,096; WARNING ; [9264 - MainProcess - 11492]; kivy                               ; write               ;  335: stderr:     Clock.schedule_once(lambda dt: self.load_navigation(), 2)
+2021-03-15 13:10:55,096; WARNING ; [9264 - MainProcess - 11492]; kivy                               ; write               ;  335: stderr:   File "C:\Users\tmsusr\PycharmProjects\ScreenRecording\startupscreen.py", line 45, in load_navigation
+2021-03-15 13:10:55,096; WARNING ; [9264 - MainProcess - 11492]; kivy                               ; write               ;  335: stderr:     app.screens.primary_widget = NavigationScreen()
+2021-03-15 13:10:55,096; WARNING ; [9264 - MainProcess - 11492]; kivy                               ; write               ;  335: stderr:   File "C:\Users\tmsusr\PycharmProjects\ScreenRecording\navigation.py", line 13, in __init__
+2021-03-15 13:10:55,097; WARNING ; [9264 - MainProcess - 11492]; kivy                               ; write               ;  335: stderr:     applogger().logger.info("User Data Directory: ",f_path)
+2021-03-15 13:10:55,097; WARNING ; [9264 - MainProcess - 11492]; kivy                               ; write               ;  335: stderr: Message: 'User Data Directory: '
+2021-03-15 13:10:55,097; WARNING ; [9264 - MainProcess - 11492]; kivy                               ; write               ;  335: stderr: Arguments: ('C:\\Users\\tmsusr\\AppData\\Roaming\\appwin',)
+2021-03-15 13:10:56,287; INFO    ; [9264 - MainProcess - 11492]; kivy                               ; <module>            ;   35: VideoGstplayer: Using Gstreamer 1.18.0.0
+2021-03-15 13:10:56,288; INFO    ; [9264 - MainProcess - 11492]; kivy                               ; core_select_lib     ;   68: Video: Provider: gstplayer
+2021-03-15 13:11:01,753; ERROR   ; [9264 - MainProcess - 11492]; kivy                               ; texture_update      ;  259: Image: Not found <C:\Users\tmsusr\PycharmProjects\ScreenRecording\static\Recording1.avi>
+2021-03-15 13:11:01,755; INFO    ; [9264 - MainProcess - 11492]; kivy                               ; stopTouchApp        ;  624: Base: Leaving application in progress...
+2021-03-15 13:11:01,806; INFO    ; [9264 - MainProcess - 11492]; kivy                               ; _runTouchApp_prepare;  528: Base: Start application main loop
+2021-03-15 13:11:08,894; INFO    ; [9264 - MainProcess - 11492]; kivy                               ; stopTouchApp        ;  624: Base: Leaving application in progress...
+2021-03-15 13:12:04,652; WARNING ; [10092 - MainProcess - 10980]; kivy                               ; write               ;  335: stderr: --- Logging error ---
+2021-03-15 13:12:04,654; WARNING ; [10092 - MainProcess - 10980]; kivy                               ; write               ;  335: stderr: Traceback (most recent call last):
+2021-03-15 13:12:04,655; WARNING ; [10092 - MainProcess - 10980]; kivy                               ; write               ;  335: stderr:   File "C:\Program Files\Python\Version37\lib\logging\__init__.py", line 1025, in emit
+2021-03-15 13:12:04,655; WARNING ; [10092 - MainProcess - 10980]; kivy                               ; write               ;  335: stderr:     msg = self.format(record)
+2021-03-15 13:12:04,655; WARNING ; [10092 - MainProcess - 10980]; kivy                               ; write               ;  335: stderr:   File "C:\Program Files\Python\Version37\lib\logging\__init__.py", line 869, in format
+2021-03-15 13:12:04,655; WARNING ; [10092 - MainProcess - 10980]; kivy                               ; write               ;  335: stderr:     return fmt.format(record)
+2021-03-15 13:12:04,656; WARNING ; [10092 - MainProcess - 10980]; kivy                               ; write               ;  335: stderr:   File "C:\Program Files\Python\Version37\lib\logging\__init__.py", line 608, in format
+2021-03-15 13:12:04,656; WARNING ; [10092 - MainProcess - 10980]; kivy                               ; write               ;  335: stderr:     record.message = record.getMessage()
+2021-03-15 13:12:04,656; WARNING ; [10092 - MainProcess - 10980]; kivy                               ; write               ;  335: stderr:   File "C:\Program Files\Python\Version37\lib\logging\__init__.py", line 369, in getMessage
+2021-03-15 13:12:04,656; WARNING ; [10092 - MainProcess - 10980]; kivy                               ; write               ;  335: stderr:     msg = msg % self.args
+2021-03-15 13:12:04,657; WARNING ; [10092 - MainProcess - 10980]; kivy                               ; write               ;  335: stderr: TypeError: not all arguments converted during string formatting
+2021-03-15 13:12:04,657; WARNING ; [10092 - MainProcess - 10980]; kivy                               ; write               ;  335: stderr: Call stack:
+2021-03-15 13:12:04,662; WARNING ; [10092 - MainProcess - 10980]; kivy                               ; write               ;  335: stderr:   File "C:/Users/tmsusr/PycharmProjects/ScreenRecording/main.py", line 62, in <module>
+2021-03-15 13:12:04,663; WARNING ; [10092 - MainProcess - 10980]; kivy                               ; write               ;  335: stderr:     main()
+2021-03-15 13:12:04,663; WARNING ; [10092 - MainProcess - 10980]; kivy                               ; write               ;  335: stderr:   File "C:/Users/tmsusr/PycharmProjects/ScreenRecording/main.py", line 31, in main
+2021-03-15 13:12:04,663; WARNING ; [10092 - MainProcess - 10980]; kivy                               ; write               ;  335: stderr:     app.run()
+2021-03-15 13:12:04,663; WARNING ; [10092 - MainProcess - 10980]; kivy                               ; write               ;  335: stderr:   File "C:\Users\tmsusr\PycharmProjects\ScreenRecording\venv\lib\site-packages\kivy\app.py", line 950, in run
+2021-03-15 13:12:04,663; WARNING ; [10092 - MainProcess - 10980]; kivy                               ; write               ;  335: stderr:     runTouchApp()
+2021-03-15 13:12:04,664; WARNING ; [10092 - MainProcess - 10980]; kivy                               ; write               ;  335: stderr:   File "C:\Users\tmsusr\PycharmProjects\ScreenRecording\venv\lib\site-packages\kivy\base.py", line 582, in runTouchApp
+2021-03-15 13:12:04,664; WARNING ; [10092 - MainProcess - 10980]; kivy                               ; write               ;  335: stderr:     EventLoop.mainloop()
+2021-03-15 13:12:04,664; WARNING ; [10092 - MainProcess - 10980]; kivy                               ; write               ;  335: stderr:   File "C:\Users\tmsusr\PycharmProjects\ScreenRecording\venv\lib\site-packages\kivy\base.py", line 347, in mainloop
+2021-03-15 13:12:04,664; WARNING ; [10092 - MainProcess - 10980]; kivy                               ; write               ;  335: stderr:     self.idle()
+2021-03-15 13:12:04,664; WARNING ; [10092 - MainProcess - 10980]; kivy                               ; write               ;  335: stderr:   File "C:\Users\tmsusr\PycharmProjects\ScreenRecording\venv\lib\site-packages\kivy\base.py", line 387, in idle
+2021-03-15 13:12:04,664; WARNING ; [10092 - MainProcess - 10980]; kivy                               ; write               ;  335: stderr:     Clock.tick()
+2021-03-15 13:12:04,665; WARNING ; [10092 - MainProcess - 10980]; kivy                               ; write               ;  335: stderr:   File "C:\Users\tmsusr\PycharmProjects\ScreenRecording\venv\lib\site-packages\kivy\clock.py", line 733, in tick
+2021-03-15 13:12:04,665; WARNING ; [10092 - MainProcess - 10980]; kivy                               ; write               ;  335: stderr:     self.post_idle(ts, self.idle())
+2021-03-15 13:12:04,665; WARNING ; [10092 - MainProcess - 10980]; kivy                               ; write               ;  335: stderr:   File "C:\Users\tmsusr\PycharmProjects\ScreenRecording\venv\lib\site-packages\kivy\clock.py", line 776, in post_idle
+2021-03-15 13:12:04,665; WARNING ; [10092 - MainProcess - 10980]; kivy                               ; write               ;  335: stderr:     self._process_events()
+2021-03-15 13:12:04,665; WARNING ; [10092 - MainProcess - 10980]; kivy                               ; write               ;  335: stderr:   File "C:\Users\tmsusr\PycharmProjects\ScreenRecording\startupscreen.py", line 24, in <lambda>
+2021-03-15 13:12:04,666; WARNING ; [10092 - MainProcess - 10980]; kivy                               ; write               ;  335: stderr:     Clock.schedule_once(lambda dt: self.load_navigation(), 2)
+2021-03-15 13:12:04,666; WARNING ; [10092 - MainProcess - 10980]; kivy                               ; write               ;  335: stderr:   File "C:\Users\tmsusr\PycharmProjects\ScreenRecording\startupscreen.py", line 45, in load_navigation
+2021-03-15 13:12:04,666; WARNING ; [10092 - MainProcess - 10980]; kivy                               ; write               ;  335: stderr:     app.screens.primary_widget = NavigationScreen()
+2021-03-15 13:12:04,666; WARNING ; [10092 - MainProcess - 10980]; kivy                               ; write               ;  335: stderr:   File "C:\Users\tmsusr\PycharmProjects\ScreenRecording\navigation.py", line 13, in __init__
+2021-03-15 13:12:04,666; WARNING ; [10092 - MainProcess - 10980]; kivy                               ; write               ;  335: stderr:     applogger().logger.info("User Data Directory: ",f_path)
+2021-03-15 13:12:04,667; WARNING ; [10092 - MainProcess - 10980]; kivy                               ; write               ;  335: stderr: Message: 'User Data Directory: '
+2021-03-15 13:12:04,667; WARNING ; [10092 - MainProcess - 10980]; kivy                               ; write               ;  335: stderr: Arguments: ('C:\\Users\\tmsusr\\AppData\\Roaming\\appwin',)
+2021-03-15 13:12:04,667; WARNING ; [10092 - MainProcess - 10980]; kivy                               ; write               ;  335: stderr: --- Logging error ---
+2021-03-15 13:12:04,668; WARNING ; [10092 - MainProcess - 10980]; kivy                               ; write               ;  335: stderr: Traceback (most recent call last):
+2021-03-15 13:12:04,669; WARNING ; [10092 - MainProcess - 10980]; kivy                               ; write               ;  335: stderr:   File "C:\Program Files\Python\Version37\lib\logging\handlers.py", line 69, in emit
+2021-03-15 13:12:04,669; WARNING ; [10092 - MainProcess - 10980]; kivy                               ; write               ;  335: stderr:     if self.shouldRollover(record):
+2021-03-15 13:12:04,669; WARNING ; [10092 - MainProcess - 10980]; kivy                               ; write               ;  335: stderr:   File "C:\Program Files\Python\Version37\lib\logging\handlers.py", line 185, in shouldRollover
+2021-03-15 13:12:04,669; WARNING ; [10092 - MainProcess - 10980]; kivy                               ; write               ;  335: stderr:     msg = "%s\n" % self.format(record)
+2021-03-15 13:12:04,669; WARNING ; [10092 - MainProcess - 10980]; kivy                               ; write               ;  335: stderr:   File "C:\Program Files\Python\Version37\lib\logging\__init__.py", line 869, in format
+2021-03-15 13:12:04,670; WARNING ; [10092 - MainProcess - 10980]; kivy                               ; write               ;  335: stderr:     return fmt.format(record)
+2021-03-15 13:12:04,670; WARNING ; [10092 - MainProcess - 10980]; kivy                               ; write               ;  335: stderr:   File "C:\Program Files\Python\Version37\lib\logging\__init__.py", line 608, in format
+2021-03-15 13:12:04,670; WARNING ; [10092 - MainProcess - 10980]; kivy                               ; write               ;  335: stderr:     record.message = record.getMessage()
+2021-03-15 13:12:04,670; WARNING ; [10092 - MainProcess - 10980]; kivy                               ; write               ;  335: stderr:   File "C:\Program Files\Python\Version37\lib\logging\__init__.py", line 369, in getMessage
+2021-03-15 13:12:04,670; WARNING ; [10092 - MainProcess - 10980]; kivy                               ; write               ;  335: stderr:     msg = msg % self.args
+2021-03-15 13:12:04,671; WARNING ; [10092 - MainProcess - 10980]; kivy                               ; write               ;  335: stderr: TypeError: not all arguments converted during string formatting
+2021-03-15 13:12:04,671; WARNING ; [10092 - MainProcess - 10980]; kivy                               ; write               ;  335: stderr: Call stack:
+2021-03-15 13:12:04,672; WARNING ; [10092 - MainProcess - 10980]; kivy                               ; write               ;  335: stderr:   File "C:/Users/tmsusr/PycharmProjects/ScreenRecording/main.py", line 62, in <module>
+2021-03-15 13:12:04,672; WARNING ; [10092 - MainProcess - 10980]; kivy                               ; write               ;  335: stderr:     main()
+2021-03-15 13:12:04,672; WARNING ; [10092 - MainProcess - 10980]; kivy                               ; write               ;  335: stderr:   File "C:/Users/tmsusr/PycharmProjects/ScreenRecording/main.py", line 31, in main
+2021-03-15 13:12:04,672; WARNING ; [10092 - MainProcess - 10980]; kivy                               ; write               ;  335: stderr:     app.run()
+2021-03-15 13:12:04,673; WARNING ; [10092 - MainProcess - 10980]; kivy                               ; write               ;  335: stderr:   File "C:\Users\tmsusr\PycharmProjects\ScreenRecording\venv\lib\site-packages\kivy\app.py", line 950, in run
+2021-03-15 13:12:04,673; WARNING ; [10092 - MainProcess - 10980]; kivy                               ; write               ;  335: stderr:     runTouchApp()
+2021-03-15 13:12:04,673; WARNING ; [10092 - MainProcess - 10980]; kivy                               ; write               ;  335: stderr:   File "C:\Users\tmsusr\PycharmProjects\ScreenRecording\venv\lib\site-packages\kivy\base.py", line 582, in runTouchApp
+2021-03-15 13:12:04,673; WARNING ; [10092 - MainProcess - 10980]; kivy                               ; write               ;  335: stderr:     EventLoop.mainloop()
+2021-03-15 13:12:04,673; WARNING ; [10092 - MainProcess - 10980]; kivy                               ; write               ;  335: stderr:   File "C:\Users\tmsusr\PycharmProjects\ScreenRecording\venv\lib\site-packages\kivy\base.py", line 347, in mainloop
+2021-03-15 13:12:04,673; WARNING ; [10092 - MainProcess - 10980]; kivy                               ; write               ;  335: stderr:     self.idle()
+2021-03-15 13:12:04,674; WARNING ; [10092 - MainProcess - 10980]; kivy                               ; write               ;  335: stderr:   File "C:\Users\tmsusr\PycharmProjects\ScreenRecording\venv\lib\site-packages\kivy\base.py", line 387, in idle
+2021-03-15 13:12:04,674; WARNING ; [10092 - MainProcess - 10980]; kivy                               ; write               ;  335: stderr:     Clock.tick()
+2021-03-15 13:12:04,674; WARNING ; [10092 - MainProcess - 10980]; kivy                               ; write               ;  335: stderr:   File "C:\Users\tmsusr\PycharmProjects\ScreenRecording\venv\lib\site-packages\kivy\clock.py", line 733, in tick
+2021-03-15 13:12:04,674; WARNING ; [10092 - MainProcess - 10980]; kivy                               ; write               ;  335: stderr:     self.post_idle(ts, self.idle())
+2021-03-15 13:12:04,674; WARNING ; [10092 - MainProcess - 10980]; kivy                               ; write               ;  335: stderr:   File "C:\Users\tmsusr\PycharmProjects\ScreenRecording\venv\lib\site-packages\kivy\clock.py", line 776, in post_idle
+2021-03-15 13:12:04,675; WARNING ; [10092 - MainProcess - 10980]; kivy                               ; write               ;  335: stderr:     self._process_events()
+2021-03-15 13:12:04,675; WARNING ; [10092 - MainProcess - 10980]; kivy                               ; write               ;  335: stderr:   File "C:\Users\tmsusr\PycharmProjects\ScreenRecording\startupscreen.py", line 24, in <lambda>
+2021-03-15 13:12:04,675; WARNING ; [10092 - MainProcess - 10980]; kivy                               ; write               ;  335: stderr:     Clock.schedule_once(lambda dt: self.load_navigation(), 2)
+2021-03-15 13:12:04,675; WARNING ; [10092 - MainProcess - 10980]; kivy                               ; write               ;  335: stderr:   File "C:\Users\tmsusr\PycharmProjects\ScreenRecording\startupscreen.py", line 45, in load_navigation
+2021-03-15 13:12:04,675; WARNING ; [10092 - MainProcess - 10980]; kivy                               ; write               ;  335: stderr:     app.screens.primary_widget = NavigationScreen()
+2021-03-15 13:12:04,676; WARNING ; [10092 - MainProcess - 10980]; kivy                               ; write               ;  335: stderr:   File "C:\Users\tmsusr\PycharmProjects\ScreenRecording\navigation.py", line 13, in __init__
+2021-03-15 13:12:04,676; WARNING ; [10092 - MainProcess - 10980]; kivy                               ; write               ;  335: stderr:     applogger().logger.info("User Data Directory: ",f_path)
+2021-03-15 13:12:04,676; WARNING ; [10092 - MainProcess - 10980]; kivy                               ; write               ;  335: stderr: Message: 'User Data Directory: '
+2021-03-15 13:12:04,676; WARNING ; [10092 - MainProcess - 10980]; kivy                               ; write               ;  335: stderr: Arguments: ('C:\\Users\\tmsusr\\AppData\\Roaming\\appwin',)
+2021-03-15 13:12:05,869; INFO    ; [10092 - MainProcess - 10980]; kivy                               ; <module>            ;   35: VideoGstplayer: Using Gstreamer 1.18.0.0
+2021-03-15 13:12:05,869; INFO    ; [10092 - MainProcess - 10980]; kivy                               ; core_select_lib     ;   68: Video: Provider: gstplayer
+2021-03-15 13:12:07,325; ERROR   ; [10092 - MainProcess - 10980]; kivy                               ; texture_update      ;  273: Image: Error loading <C:\Users\tmsusr\PycharmProjects\ScreenRecording\static\Recording.avi>
+2021-03-15 13:12:13,782; INFO    ; [10092 - MainProcess - 10980]; kivy                               ; stopTouchApp        ;  624: Base: Leaving application in progress...
+2021-03-15 13:15:47,276; WARNING ; [4660 - MainProcess - 6292]; kivy                               ; write               ;  335: stderr: --- Logging error ---
+2021-03-15 13:15:47,278; WARNING ; [4660 - MainProcess - 6292]; kivy                               ; write               ;  335: stderr: Traceback (most recent call last):
+2021-03-15 13:15:47,278; WARNING ; [4660 - MainProcess - 6292]; kivy                               ; write               ;  335: stderr:   File "C:\Program Files\Python\Version37\lib\logging\__init__.py", line 1025, in emit
+2021-03-15 13:15:47,278; WARNING ; [4660 - MainProcess - 6292]; kivy                               ; write               ;  335: stderr:     msg = self.format(record)
+2021-03-15 13:15:47,279; WARNING ; [4660 - MainProcess - 6292]; kivy                               ; write               ;  335: stderr:   File "C:\Program Files\Python\Version37\lib\logging\__init__.py", line 869, in format
+2021-03-15 13:15:47,279; WARNING ; [4660 - MainProcess - 6292]; kivy                               ; write               ;  335: stderr:     return fmt.format(record)
+2021-03-15 13:15:47,279; WARNING ; [4660 - MainProcess - 6292]; kivy                               ; write               ;  335: stderr:   File "C:\Program Files\Python\Version37\lib\logging\__init__.py", line 608, in format
+2021-03-15 13:15:47,280; WARNING ; [4660 - MainProcess - 6292]; kivy                               ; write               ;  335: stderr:     record.message = record.getMessage()
+2021-03-15 13:15:47,280; WARNING ; [4660 - MainProcess - 6292]; kivy                               ; write               ;  335: stderr:   File "C:\Program Files\Python\Version37\lib\logging\__init__.py", line 369, in getMessage
+2021-03-15 13:15:47,280; WARNING ; [4660 - MainProcess - 6292]; kivy                               ; write               ;  335: stderr:     msg = msg % self.args
+2021-03-15 13:15:47,281; WARNING ; [4660 - MainProcess - 6292]; kivy                               ; write               ;  335: stderr: TypeError: not all arguments converted during string formatting
+2021-03-15 13:15:47,281; WARNING ; [4660 - MainProcess - 6292]; kivy                               ; write               ;  335: stderr: Call stack:
+2021-03-15 13:15:47,287; WARNING ; [4660 - MainProcess - 6292]; kivy                               ; write               ;  335: stderr:   File "C:/Users/tmsusr/PycharmProjects/ScreenRecording/main.py", line 62, in <module>
+2021-03-15 13:15:47,287; WARNING ; [4660 - MainProcess - 6292]; kivy                               ; write               ;  335: stderr:     main()
+2021-03-15 13:15:47,287; WARNING ; [4660 - MainProcess - 6292]; kivy                               ; write               ;  335: stderr:   File "C:/Users/tmsusr/PycharmProjects/ScreenRecording/main.py", line 31, in main
+2021-03-15 13:15:47,288; WARNING ; [4660 - MainProcess - 6292]; kivy                               ; write               ;  335: stderr:     app.run()
+2021-03-15 13:15:47,288; WARNING ; [4660 - MainProcess - 6292]; kivy                               ; write               ;  335: stderr:   File "C:\Users\tmsusr\PycharmProjects\ScreenRecording\venv\lib\site-packages\kivy\app.py", line 950, in run
+2021-03-15 13:15:47,289; WARNING ; [4660 - MainProcess - 6292]; kivy                               ; write               ;  335: stderr:     runTouchApp()
+2021-03-15 13:15:47,289; WARNING ; [4660 - MainProcess - 6292]; kivy                               ; write               ;  335: stderr:   File "C:\Users\tmsusr\PycharmProjects\ScreenRecording\venv\lib\site-packages\kivy\base.py", line 582, in runTouchApp
+2021-03-15 13:15:47,290; WARNING ; [4660 - MainProcess - 6292]; kivy                               ; write               ;  335: stderr:     EventLoop.mainloop()
+2021-03-15 13:15:47,290; WARNING ; [4660 - MainProcess - 6292]; kivy                               ; write               ;  335: stderr:   File "C:\Users\tmsusr\PycharmProjects\ScreenRecording\venv\lib\site-packages\kivy\base.py", line 347, in mainloop
+2021-03-15 13:15:47,290; WARNING ; [4660 - MainProcess - 6292]; kivy                               ; write               ;  335: stderr:     self.idle()
+2021-03-15 13:15:47,290; WARNING ; [4660 - MainProcess - 6292]; kivy                               ; write               ;  335: stderr:   File "C:\Users\tmsusr\PycharmProjects\ScreenRecording\venv\lib\site-packages\kivy\base.py", line 387, in idle
+2021-03-15 13:15:47,291; WARNING ; [4660 - MainProcess - 6292]; kivy                               ; write               ;  335: stderr:     Clock.tick()
+2021-03-15 13:15:47,291; WARNING ; [4660 - MainProcess - 6292]; kivy                               ; write               ;  335: stderr:   File "C:\Users\tmsusr\PycharmProjects\ScreenRecording\venv\lib\site-packages\kivy\clock.py", line 733, in tick
+2021-03-15 13:15:47,291; WARNING ; [4660 - MainProcess - 6292]; kivy                               ; write               ;  335: stderr:     self.post_idle(ts, self.idle())
+2021-03-15 13:15:47,291; WARNING ; [4660 - MainProcess - 6292]; kivy                               ; write               ;  335: stderr:   File "C:\Users\tmsusr\PycharmProjects\ScreenRecording\venv\lib\site-packages\kivy\clock.py", line 776, in post_idle
+2021-03-15 13:15:47,292; WARNING ; [4660 - MainProcess - 6292]; kivy                               ; write               ;  335: stderr:     self._process_events()
+2021-03-15 13:15:47,292; WARNING ; [4660 - MainProcess - 6292]; kivy                               ; write               ;  335: stderr:   File "C:\Users\tmsusr\PycharmProjects\ScreenRecording\startupscreen.py", line 24, in <lambda>
+2021-03-15 13:15:47,292; WARNING ; [4660 - MainProcess - 6292]; kivy                               ; write               ;  335: stderr:     Clock.schedule_once(lambda dt: self.load_navigation(), 2)
+2021-03-15 13:15:47,292; WARNING ; [4660 - MainProcess - 6292]; kivy                               ; write               ;  335: stderr:   File "C:\Users\tmsusr\PycharmProjects\ScreenRecording\startupscreen.py", line 45, in load_navigation
+2021-03-15 13:15:47,293; WARNING ; [4660 - MainProcess - 6292]; kivy                               ; write               ;  335: stderr:     app.screens.primary_widget = NavigationScreen()
+2021-03-15 13:15:47,293; WARNING ; [4660 - MainProcess - 6292]; kivy                               ; write               ;  335: stderr:   File "C:\Users\tmsusr\PycharmProjects\ScreenRecording\navigation.py", line 13, in __init__
+2021-03-15 13:15:47,293; WARNING ; [4660 - MainProcess - 6292]; kivy                               ; write               ;  335: stderr:     applogger().logger.info("User Data Directory: ",f_path)
+2021-03-15 13:15:47,293; WARNING ; [4660 - MainProcess - 6292]; kivy                               ; write               ;  335: stderr: Message: 'User Data Directory: '
+2021-03-15 13:15:47,294; WARNING ; [4660 - MainProcess - 6292]; kivy                               ; write               ;  335: stderr: Arguments: ('C:\\Users\\tmsusr\\AppData\\Roaming\\appwin',)
+2021-03-15 13:15:47,294; WARNING ; [4660 - MainProcess - 6292]; kivy                               ; write               ;  335: stderr: --- Logging error ---
+2021-03-15 13:15:47,296; WARNING ; [4660 - MainProcess - 6292]; kivy                               ; write               ;  335: stderr: Traceback (most recent call last):
+2021-03-15 13:15:47,297; WARNING ; [4660 - MainProcess - 6292]; kivy                               ; write               ;  335: stderr:   File "C:\Program Files\Python\Version37\lib\logging\handlers.py", line 69, in emit
+2021-03-15 13:15:47,297; WARNING ; [4660 - MainProcess - 6292]; kivy                               ; write               ;  335: stderr:     if self.shouldRollover(record):
+2021-03-15 13:15:47,297; WARNING ; [4660 - MainProcess - 6292]; kivy                               ; write               ;  335: stderr:   File "C:\Program Files\Python\Version37\lib\logging\handlers.py", line 185, in shouldRollover
+2021-03-15 13:15:47,297; WARNING ; [4660 - MainProcess - 6292]; kivy                               ; write               ;  335: stderr:     msg = "%s\n" % self.format(record)
+2021-03-15 13:15:47,298; WARNING ; [4660 - MainProcess - 6292]; kivy                               ; write               ;  335: stderr:   File "C:\Program Files\Python\Version37\lib\logging\__init__.py", line 869, in format
+2021-03-15 13:15:47,298; WARNING ; [4660 - MainProcess - 6292]; kivy                               ; write               ;  335: stderr:     return fmt.format(record)
+2021-03-15 13:15:47,298; WARNING ; [4660 - MainProcess - 6292]; kivy                               ; write               ;  335: stderr:   File "C:\Program Files\Python\Version37\lib\logging\__init__.py", line 608, in format
+2021-03-15 13:15:47,298; WARNING ; [4660 - MainProcess - 6292]; kivy                               ; write               ;  335: stderr:     record.message = record.getMessage()
+2021-03-15 13:15:47,298; WARNING ; [4660 - MainProcess - 6292]; kivy                               ; write               ;  335: stderr:   File "C:\Program Files\Python\Version37\lib\logging\__init__.py", line 369, in getMessage
+2021-03-15 13:15:47,299; WARNING ; [4660 - MainProcess - 6292]; kivy                               ; write               ;  335: stderr:     msg = msg % self.args
+2021-03-15 13:15:47,299; WARNING ; [4660 - MainProcess - 6292]; kivy                               ; write               ;  335: stderr: TypeError: not all arguments converted during string formatting
+2021-03-15 13:15:47,299; WARNING ; [4660 - MainProcess - 6292]; kivy                               ; write               ;  335: stderr: Call stack:
+2021-03-15 13:15:47,301; WARNING ; [4660 - MainProcess - 6292]; kivy                               ; write               ;  335: stderr:   File "C:/Users/tmsusr/PycharmProjects/ScreenRecording/main.py", line 62, in <module>
+2021-03-15 13:15:47,301; WARNING ; [4660 - MainProcess - 6292]; kivy                               ; write               ;  335: stderr:     main()
+2021-03-15 13:15:47,301; WARNING ; [4660 - MainProcess - 6292]; kivy                               ; write               ;  335: stderr:   File "C:/Users/tmsusr/PycharmProjects/ScreenRecording/main.py", line 31, in main
+2021-03-15 13:15:47,301; WARNING ; [4660 - MainProcess - 6292]; kivy                               ; write               ;  335: stderr:     app.run()
+2021-03-15 13:15:47,302; WARNING ; [4660 - MainProcess - 6292]; kivy                               ; write               ;  335: stderr:   File "C:\Users\tmsusr\PycharmProjects\ScreenRecording\venv\lib\site-packages\kivy\app.py", line 950, in run
+2021-03-15 13:15:47,302; WARNING ; [4660 - MainProcess - 6292]; kivy                               ; write               ;  335: stderr:     runTouchApp()
+2021-03-15 13:15:47,302; WARNING ; [4660 - MainProcess - 6292]; kivy                               ; write               ;  335: stderr:   File "C:\Users\tmsusr\PycharmProjects\ScreenRecording\venv\lib\site-packages\kivy\base.py", line 582, in runTouchApp
+2021-03-15 13:15:47,303; WARNING ; [4660 - MainProcess - 6292]; kivy                               ; write               ;  335: stderr:     EventLoop.mainloop()
+2021-03-15 13:15:47,303; WARNING ; [4660 - MainProcess - 6292]; kivy                               ; write               ;  335: stderr:   File "C:\Users\tmsusr\PycharmProjects\ScreenRecording\venv\lib\site-packages\kivy\base.py", line 347, in mainloop
+2021-03-15 13:15:47,303; WARNING ; [4660 - MainProcess - 6292]; kivy                               ; write               ;  335: stderr:     self.idle()
+2021-03-15 13:15:47,303; WARNING ; [4660 - MainProcess - 6292]; kivy                               ; write               ;  335: stderr:   File "C:\Users\tmsusr\PycharmProjects\ScreenRecording\venv\lib\site-packages\kivy\base.py", line 387, in idle
+2021-03-15 13:15:47,304; WARNING ; [4660 - MainProcess - 6292]; kivy                               ; write               ;  335: stderr:     Clock.tick()
+2021-03-15 13:15:47,304; WARNING ; [4660 - MainProcess - 6292]; kivy                               ; write               ;  335: stderr:   File "C:\Users\tmsusr\PycharmProjects\ScreenRecording\venv\lib\site-packages\kivy\clock.py", line 733, in tick
+2021-03-15 13:15:47,304; WARNING ; [4660 - MainProcess - 6292]; kivy                               ; write               ;  335: stderr:     self.post_idle(ts, self.idle())
+2021-03-15 13:15:47,304; WARNING ; [4660 - MainProcess - 6292]; kivy                               ; write               ;  335: stderr:   File "C:\Users\tmsusr\PycharmProjects\ScreenRecording\venv\lib\site-packages\kivy\clock.py", line 776, in post_idle
+2021-03-15 13:15:47,304; WARNING ; [4660 - MainProcess - 6292]; kivy                               ; write               ;  335: stderr:     self._process_events()
+2021-03-15 13:15:47,305; WARNING ; [4660 - MainProcess - 6292]; kivy                               ; write               ;  335: stderr:   File "C:\Users\tmsusr\PycharmProjects\ScreenRecording\startupscreen.py", line 24, in <lambda>
+2021-03-15 13:15:47,305; WARNING ; [4660 - MainProcess - 6292]; kivy                               ; write               ;  335: stderr:     Clock.schedule_once(lambda dt: self.load_navigation(), 2)
+2021-03-15 13:15:47,305; WARNING ; [4660 - MainProcess - 6292]; kivy                               ; write               ;  335: stderr:   File "C:\Users\tmsusr\PycharmProjects\ScreenRecording\startupscreen.py", line 45, in load_navigation
+2021-03-15 13:15:47,305; WARNING ; [4660 - MainProcess - 6292]; kivy                               ; write               ;  335: stderr:     app.screens.primary_widget = NavigationScreen()
+2021-03-15 13:15:47,305; WARNING ; [4660 - MainProcess - 6292]; kivy                               ; write               ;  335: stderr:   File "C:\Users\tmsusr\PycharmProjects\ScreenRecording\navigation.py", line 13, in __init__
+2021-03-15 13:15:47,306; WARNING ; [4660 - MainProcess - 6292]; kivy                               ; write               ;  335: stderr:     applogger().logger.info("User Data Directory: ",f_path)
+2021-03-15 13:15:47,306; WARNING ; [4660 - MainProcess - 6292]; kivy                               ; write               ;  335: stderr: Message: 'User Data Directory: '
+2021-03-15 13:15:47,306; WARNING ; [4660 - MainProcess - 6292]; kivy                               ; write               ;  335: stderr: Arguments: ('C:\\Users\\tmsusr\\AppData\\Roaming\\appwin',)
+2021-03-15 13:15:48,500; INFO    ; [4660 - MainProcess - 6292]; kivy                               ; <module>            ;   35: VideoGstplayer: Using Gstreamer 1.18.0.0
+2021-03-15 13:15:48,500; INFO    ; [4660 - MainProcess - 6292]; kivy                               ; core_select_lib     ;   68: Video: Provider: gstplayer
+2021-03-15 13:15:54,308; ERROR   ; [4660 - MainProcess - 6292]; kivy                               ; texture_update      ;  273: Image: Error loading <C:\Users\tmsusr\PycharmProjects\ScreenRecording\static\Recording.avi>
+2021-03-15 13:15:57,009; INFO    ; [4660 - MainProcess - 6292]; applogger                          ; VideoDone           ;  115: video displayed successfully...
+2021-03-15 13:16:52,568; INFO    ; [4660 - MainProcess - 6292]; kivy                               ; stopTouchApp        ;  624: Base: Leaving application in progress...
+2021-03-15 13:17:54,531; INFO    ; [2380 - MainProcess - 8744]; kivy                               ; stopTouchApp        ;  624: Base: Leaving application in progress...
+2021-03-15 13:17:54,625; INFO    ; [2380 - MainProcess - 8744]; kivy                               ; _runTouchApp_prepare;  528: Base: Start application main loop
+2021-03-15 13:17:57,006; INFO    ; [2380 - MainProcess - 8744]; kivy                               ; stopTouchApp        ;  624: Base: Leaving application in progress...
+2021-03-15 13:21:26,227; INFO    ; [1340 - MainProcess - 11900]; kivy                               ; stopTouchApp        ;  624: Base: Leaving application in progress...
+2021-03-15 13:21:26,312; INFO    ; [1340 - MainProcess - 11900]; kivy                               ; _runTouchApp_prepare;  528: Base: Start application main loop
+2021-03-15 13:21:37,796; INFO    ; [1340 - MainProcess - 11900]; kivy                               ; stopTouchApp        ;  624: Base: Leaving application in progress...
+2021-03-15 13:21:59,795; INFO    ; [5896 - MainProcess - 6856]; kivy                               ; stopTouchApp        ;  624: Base: Leaving application in progress...
+2021-03-15 13:21:59,864; INFO    ; [5896 - MainProcess - 6856]; kivy                               ; _runTouchApp_prepare;  528: Base: Start application main loop
+2021-03-15 13:22:01,677; INFO    ; [5896 - MainProcess - 6856]; kivy                               ; stopTouchApp        ;  624: Base: Leaving application in progress...
+2021-03-15 13:22:38,643; INFO    ; [11908 - MainProcess - 11840]; applogger                          ; __init__            ;   13: User Data Directory: %(path)
+2021-03-15 13:22:39,833; INFO    ; [11908 - MainProcess - 11840]; kivy                               ; <module>            ;   35: VideoGstplayer: Using Gstreamer 1.18.0.0
+2021-03-15 13:22:39,834; INFO    ; [11908 - MainProcess - 11840]; kivy                               ; core_select_lib     ;   68: Video: Provider: gstplayer
+2021-03-15 13:22:41,592; INFO    ; [11908 - MainProcess - 11840]; kivy                               ; stopTouchApp        ;  624: Base: Leaving application in progress...
+2021-03-15 13:23:04,761; INFO    ; [1664 - MainProcess - 4548]; applogger                          ; __init__            ;   13: User Data Directory:C:\Users\tmsusr\AppData\Roaming\appwin
+2021-03-15 13:23:05,959; INFO    ; [1664 - MainProcess - 4548]; kivy                               ; <module>            ;   35: VideoGstplayer: Using Gstreamer 1.18.0.0
+2021-03-15 13:23:05,959; INFO    ; [1664 - MainProcess - 4548]; kivy                               ; core_select_lib     ;   68: Video: Provider: gstplayer
+2021-03-15 13:23:19,616; INFO    ; [1664 - MainProcess - 4548]; kivy                               ; stopTouchApp        ;  624: Base: Leaving application in progress...
+2021-03-15 13:27:37,003; INFO    ; [11520 - MainProcess - 6604]; applogger                          ; __init__            ;   13: User Data Directory:C:\Users\tmsusr\AppData\Roaming\appwin
+2021-03-15 13:27:38,184; INFO    ; [11520 - MainProcess - 6604]; kivy                               ; <module>            ;   35: VideoGstplayer: Using Gstreamer 1.18.0.0
+2021-03-15 13:27:38,185; INFO    ; [11520 - MainProcess - 6604]; kivy                               ; core_select_lib     ;   68: Video: Provider: gstplayer
+2021-03-15 13:27:52,247; ERROR   ; [11520 - MainProcess - 6604]; kivy                               ; texture_update      ;  273: Image: Error loading <C:\Users\tmsusr\PycharmProjects\ScreenRecording\static\Recording.avi>
+2021-03-15 13:27:54,908; INFO    ; [11520 - MainProcess - 6604]; applogger                          ; VideoDone           ;  115: MainScreen - video completed successfully
+2021-03-15 13:28:09,625; INFO    ; [11520 - MainProcess - 6604]; kivy                               ; stopTouchApp        ;  624: Base: Leaving application in progress...
+2021-03-15 13:29:01,437; INFO    ; [9028 - MainProcess - 9900]; applogger                          ; __init__            ;   13: User Data Directory:C:\Users\tmsusr\AppData\Roaming\appwin
+2021-03-15 13:29:02,699; INFO    ; [9028 - MainProcess - 9900]; kivy                               ; <module>            ;   35: VideoGstplayer: Using Gstreamer 1.18.0.0
+2021-03-15 13:29:02,699; INFO    ; [9028 - MainProcess - 9900]; kivy                               ; core_select_lib     ;   68: Video: Provider: gstplayer
+2021-03-15 13:29:07,078; ERROR   ; [9028 - MainProcess - 9900]; kivy                               ; texture_update      ;  273: Image: Error loading <C:\Users\tmsusr\PycharmProjects\ScreenRecording\static\Recording.avi>
+2021-03-15 13:29:09,746; INFO    ; [9028 - MainProcess - 9900]; applogger                          ; VideoDone           ;  115: MainScreen - video completed successfully
+2021-03-15 13:30:39,458; ERROR   ; [9028 - MainProcess - 9900]; kivy                               ; texture_update      ;  273: Image: Error loading <C:\Users\tmsusr\PycharmProjects\ScreenRecording\static\Recording.avi>
+2021-03-15 13:30:48,043; INFO    ; [9028 - MainProcess - 9900]; applogger                          ; VideoDone           ;  115: MainScreen - video completed successfully
+2021-03-15 13:30:52,027; INFO    ; [9028 - MainProcess - 9900]; kivy                               ; stopTouchApp        ;  624: Base: Leaving application in progress...
+2021-03-15 13:34:11,521; INFO    ; [10588 - MainProcess - 4020]; applogger                          ; __init__            ;   13: User Data Directory:C:\Users\tmsusr\AppData\Roaming\appwin
+2021-03-15 13:34:12,639; INFO    ; [10588 - MainProcess - 4020]; kivy                               ; <module>            ;   35: VideoGstplayer: Using Gstreamer 1.18.0.0
+2021-03-15 13:34:12,640; INFO    ; [10588 - MainProcess - 4020]; kivy                               ; core_select_lib     ;   68: Video: Provider: gstplayer
+2021-03-15 13:34:17,060; ERROR   ; [10588 - MainProcess - 4020]; kivy                               ; texture_update      ;  273: Image: Error loading <C:\Users\tmsusr\PycharmProjects\ScreenRecording\static\>
+2021-03-15 13:34:17,501; ERROR   ; [10588 - MainProcess - 4020]; kivy                               ; _on_gstplayer_message;   49: VideoGstplayer: b'Could not open file "C:\\Users\\tmsusr\\PycharmProjects\\ScreenRecording\\static" for reading.'
+2021-03-15 13:34:17,502; ERROR   ; [10588 - MainProcess - 4020]; kivy                               ; _on_gstplayer_message;   49: VideoGstplayer: b'GStreamer error: state change failed and some element failed to post a proper error message with the reason for the failure.'
+2021-03-15 13:34:17,502; ERROR   ; [10588 - MainProcess - 4020]; kivy                               ; _on_gstplayer_message;   49: VideoGstplayer: b'Could not open file "C:\\Users\\tmsusr\\PycharmProjects\\ScreenRecording\\static" for reading.'
+2021-03-15 13:34:17,503; ERROR   ; [10588 - MainProcess - 4020]; kivy                               ; _on_gstplayer_message;   49: VideoGstplayer: b'GStreamer error: state change failed and some element failed to post a proper error message with the reason for the failure.'
+2021-03-15 13:34:24,235; INFO    ; [10588 - MainProcess - 4020]; kivy                               ; stopTouchApp        ;  624: Base: Leaving application in progress...
+2021-03-15 13:34:28,335; INFO    ; [2712 - MainProcess - 7452]; applogger                          ; __init__            ;   13: User Data Directory:C:\Users\tmsusr\AppData\Roaming\appwin
+2021-03-15 13:34:29,437; INFO    ; [2712 - MainProcess - 7452]; kivy                               ; <module>            ;   35: VideoGstplayer: Using Gstreamer 1.18.0.0
+2021-03-15 13:34:29,438; INFO    ; [2712 - MainProcess - 7452]; kivy                               ; core_select_lib     ;   68: Video: Provider: gstplayer
+2021-03-15 13:34:30,282; INFO    ; [2712 - MainProcess - 7452]; kivy                               ; stopTouchApp        ;  624: Base: Leaving application in progress...
+2021-03-15 13:35:06,651; INFO    ; [1316 - MainProcess - 6552]; applogger                          ; __init__            ;   13: User Data Directory:C:\Users\tmsusr\AppData\Roaming\appwin
+2021-03-15 13:35:07,812; INFO    ; [1316 - MainProcess - 6552]; kivy                               ; <module>            ;   35: VideoGstplayer: Using Gstreamer 1.18.0.0
+2021-03-15 13:35:07,812; INFO    ; [1316 - MainProcess - 6552]; kivy                               ; core_select_lib     ;   68: Video: Provider: gstplayer
+2021-03-15 13:35:13,162; INFO    ; [1316 - MainProcess - 6552]; kivy                               ; stopTouchApp        ;  624: Base: Leaving application in progress...
+2021-03-15 15:20:18,836; INFO    ; [8564 - MainProcess - 9612]; applogger                          ; __init__            ;   13: User Data Directory:C:\Users\tmsusr\AppData\Roaming\appwin
+2021-03-15 15:20:20,206; INFO    ; [8564 - MainProcess - 9612]; kivy                               ; <module>            ;   35: VideoGstplayer: Using Gstreamer 1.18.0.0
+2021-03-15 15:20:20,206; INFO    ; [8564 - MainProcess - 9612]; kivy                               ; core_select_lib     ;   68: Video: Provider: gstplayer
+2021-03-15 15:20:25,428; INFO    ; [8564 - MainProcess - 9612]; kivy                               ; stopTouchApp        ;  624: Base: Leaving application in progress...

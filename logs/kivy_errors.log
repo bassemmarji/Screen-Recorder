@@ -1,0 +1,26 @@
+Traceback (most recent call last):
+  File "C:/Users/tmsusr/PycharmProjects/ScreenRecording/main.py", line 31, in main
+    app.run()
+  File "C:\Users\tmsusr\PycharmProjects\ScreenRecording\venv\lib\site-packages\kivy\app.py", line 950, in run
+    runTouchApp()
+  File "C:\Users\tmsusr\PycharmProjects\ScreenRecording\venv\lib\site-packages\kivy\base.py", line 582, in runTouchApp
+    EventLoop.mainloop()
+  File "C:\Users\tmsusr\PycharmProjects\ScreenRecording\venv\lib\site-packages\kivy\base.py", line 347, in mainloop
+    self.idle()
+  File "C:\Users\tmsusr\PycharmProjects\ScreenRecording\venv\lib\site-packages\kivy\base.py", line 387, in idle
+    Clock.tick()
+  File "C:\Users\tmsusr\PycharmProjects\ScreenRecording\venv\lib\site-packages\kivy\clock.py", line 733, in tick
+    self.post_idle(ts, self.idle())
+  File "C:\Users\tmsusr\PycharmProjects\ScreenRecording\venv\lib\site-packages\kivy\clock.py", line 776, in post_idle
+    self._process_events()
+  File "kivy\_clock.pyx", line 616, in kivy._clock.CyClockBase._process_events
+  File "kivy\_clock.pyx", line 649, in kivy._clock.CyClockBase._process_events
+  File "kivy\_clock.pyx", line 645, in kivy._clock.CyClockBase._process_events
+  File "kivy\_clock.pyx", line 218, in kivy._clock.ClockEvent.tick
+  File "C:\Users\tmsusr\PycharmProjects\ScreenRecording\startupscreen.py", line 24, in <lambda>
+    Clock.schedule_once(lambda dt: self.load_navigation(), 2)
+  File "C:\Users\tmsusr\PycharmProjects\ScreenRecording\startupscreen.py", line 45, in load_navigation
+    app.screens.primary_widget = NavigationScreen()
+  File "C:\Users\tmsusr\PycharmProjects\ScreenRecording\navigation.py", line 13, in __init__
+    applogger().logger.info('User Data Directory: %(path)' % {"path":f_path})
+ValueError: incomplete format
